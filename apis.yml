@@ -1,8 +1,13 @@
 aid: carmoola
 name: Carmoola
-description: 'Carmoola is a company surfaced as a portfolio company of qed-investors and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Carmoola is a UK-based, mobile-first car finance platform that lets consumers get a
+  pre-approved budget in minutes through its app, then pay dealers or private sellers directly with a
+  virtual card. It offers Hire Purchase (HP) and Personal Contract Purchase (PCP) financing, soft credit
+  checks that do not affect the applicant''s score, flexible repayment terms, and the ability to refinance
+  an existing car loan. Carmoola is authorised and regulated by the UK Financial Conduct Authority (FCA)
+  and is backed by investors including QED Investors. This profile was surfaced as a QED Investors
+  portfolio company and enriched by the API Evangelist pipeline; Carmoola operates a consumer app rather
+  than a public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/carmoola/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,30 @@ x-backed-by:
 - qed-investors
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.carmoola.co.uk/hubfs/carmoola-logo.svg
 tags:
 - Company
 - Fintech
+- Automotive
+- Car Finance
+- Lending
+- Consumer Credit
+- United Kingdom
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/carmoola-domain-security.yml
 - type: Website
   url: https://www.carmoola.co.uk/
+- type: About
+  url: https://www.carmoola.co.uk/about-us
+- type: Blog
+  url: https://www.carmoola.co.uk/blog
+- type: Support
+  url: https://www.carmoola.co.uk/contact-us
+- type: SignUp
+  url: https://customer.carmoola.co.uk/login
+- type: Login
+  url: https://customer.carmoola.co.uk/login
+- type: TermsOfService
+  url: https://www.carmoola.co.uk/legal/terms-conditions-website
+- type: PrivacyPolicy
+  url: https://www.carmoola.co.uk/legal/privacy-policy
+- type: Careers
+  url: https://www.carmoola.co.uk/careers
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
